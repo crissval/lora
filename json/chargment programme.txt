@@ -1,0 +1,10 @@
+copié le fichier debug/application.binary
+et coller dans le noeud et le renommer FIRMWARE.BIN
+
+lecture des valeurs avec usb cp2102
+dans uca/forge/lorawan-server-apps/tools/
+python/nodelogparser 
+exécuter
+python3 nodelogparser_serial.py
+
+

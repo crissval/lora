@@ -1,0 +1,24 @@
+02:09:05 **** Incremental Build of configuration debug for project application ****
+Info: Internal Builder is used for build
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ARMTools\bin/../../ide/jre/bin/java -classpath C:/ConnecSense/workspaceOrig/application/scripts GetRevision C:/ConnecSense/workspaceOrig/application/Inc/version-rev.h 
+Exception in thread "main" java.lang.NullPointerException
+	at GetRevision.main(getrevision.java:36)
+Info: Parallel threads used: 0
+02:09:09 **** Rebuild of configuration debug for project application ****
+Info: Internal Builder is used for build
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ARMTools\bin/../../ide/jre/bin/java -classpath C:/ConnecSense/workspaceOrig/application/scripts GetRevision C:/ConnecSense/workspaceOrig/application/Inc/version-rev.h 
+Exception in thread "main" java.lang.NullPointerException
+	at GetRevision.main(getrevision.java:36)
+Info: Parallel threads used: 0
+02:09:33 **** Rebuild of configuration debug for project application ****
+Info: Internal Builder is used for build
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ARMTools\bin/../../ide/jre/bin/java -classpath C:/ConnecSense/workspaceOrig/application/scripts GetRevision C:/ConnecSense/workspaceOrig/application/Inc/version-rev.h 
+Exception in thread "main" java.lang.NullPointerException
+	at GetRevision.main(getrevision.java:36)
+Info: Parallel threads used: 0
+02:36:19 **** Rebuild of configuration debug for project application ****
+Info: Internal Builder is used for build
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ARMTools\bin/../../ide/jre/bin/java -classpath C:/ConnecSense/workspaceOrig/application/scripts GetRevision C:/ConnecSense/workspaceOrig/application/Inc/version-rev.h 
+Exception in thread "main" java.lang.NullPointerException
+	at GetRevision.main(getrevision.java:36)
+Info: Parallel threads used: 0

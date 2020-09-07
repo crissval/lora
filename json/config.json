@@ -1,0 +1,65 @@
+{
+	"name": "MAX31865",
+	"experimentName": "Soufriere-1",
+	"sendConfigPeriodDay": 1,
+
+	"debug": {
+		"useInternalLEDs": false,
+		"useBuzzer": false,
+		"verbose": false,
+		"serial": "EXT_USART"
+	},
+      "logs":{
+		"defaultLevel": "DEBUG",
+		"serial":       "EXT_USART"
+	},
+	
+	"buzzer": {
+		"activationExtPin": "SPI_CS"
+	},
+
+	"network": {
+		"type": "LoRaWAN",
+		"devEUI": "434E535306E31218",
+		"appEUI": "A78F1729918331B4",
+		"appKey": "436f6e6e656353656e5330315a415455",
+		"periodMn": 1,
+		"useAdaptativeDataRate": false,
+		"dataRate": 5
+	},
+
+	"sensors": [{
+		"name": "Batt12V",
+		"type": "batteryADC",
+		"periodMn": 1,
+		"useADCLine": "ANA2",
+		"voltageDivisor": 11.0,
+		"batteryType": "Pb",
+		"batteryVoltageV": 12
+	},{
+        "name": "RTD1",
+		"type": "MAX31865",
+		"periodSec": 10,
+		"RTDType": "PT100",
+		"nbWires": 4,
+		"RrefOhms": 412.0,
+		"use5VWhenActive": true
+        }],
+
+	"time": {
+		"syncMethod": "manual",
+		"GPS": {
+			"periodDay": 7,
+			"timeoutMn": 180
+		},
+		"manualUTC": {
+			"year": 2020,
+			"month": 6,
+			"day": 3,
+			"hours": 2,
+			"minutes": 19,
+			"seconds": 30
+		}
+	}
+}
+

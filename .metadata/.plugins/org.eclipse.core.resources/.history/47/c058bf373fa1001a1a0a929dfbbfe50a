@@ -1,0 +1,15 @@
+/*
+ * max31865.hpp
+ *
+ *  Created on: 29 mai 2020
+ *      Author: OPGC
+ */
+
+#ifndef SENSORS_EXTERNAL_MAX31865_HPP_
+#define SENSORS_EXTERNAL_MAX31865_HPP_
+
+
+
+
+
+#endif /* SENSORS_EXTERNAL_MAX31865_HPP_ */
